@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-green-500 p-4 shadow-md h-24 flex items-center overflow-hidden">
+    <nav className="bg-rose-600 p-4 shadow-md h-24 flex items-center overflow-hidden">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo & Nama Brand */}
         <div className="flex items-center space-x-3 text-white font-bold">
@@ -71,7 +71,7 @@ const Navbar = () => {
 
       {/* Dropdown Menu (Mobile) */}
       <div
-        className={`lg:hidden bg-green-600 flex flex-col space-y-4 p-4 mt-4 absolute w-full left-0 top-20 z-10 transition-all duration-500 ease-in-out transform ${
+        className={`lg:hidden bg-rose-700 flex flex-col space-y-4 p-4 mt-4 absolute w-full left-0 top-20 z-10 transition-all duration-500 ease-in-out transform ${
           isMenuOpen
             ? "opacity-100 translate-y-0"
             : "opacity-0 -translate-y-4 pointer-events-none"
